@@ -1,0 +1,46 @@
+.display-note {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  .btn-group {
+    display: flex;
+    gap: 10px;
+
+    button {
+      padding: 7px 10px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+    }
+
+    .btn-green {
+      color: $white;
+      background-color: $green;
+    }
+
+    .btn-red {
+      color: $white;
+      background-color: $red;
+    }
+  }
+
+  .note-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: $white;
+
+    .title {
+      font-weight: lighter;
+      font-size: 1.8rem;
+    }
+
+    .description {
+      color: #bebaba;
+      font-size: 0.82rem;
+      line-height: 20px;
+    }
+  }
+}

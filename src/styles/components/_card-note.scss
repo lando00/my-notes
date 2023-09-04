@@ -1,0 +1,23 @@
+.card-note {
+  padding: 18px 15px;
+  cursor: pointer;
+  background: #f1f1f1;
+  border-radius: 5px;
+  width: 218px;
+
+  .title {
+    color: $dark-blue;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    color: gray;
+  }
+
+  &:hover {
+    background-color: lightgray;
+  }
+}

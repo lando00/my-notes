@@ -1,0 +1,38 @@
+.menu {
+  flex: 1;
+  background-color: $dark-blue;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+
+  .three-points-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+    .point {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+
+    .point-red {
+      background-color: $red;
+    }
+
+    .point-yellow {
+      background-color: $yellow;
+    }
+
+    .point-green {
+      background-color: $green;
+    }
+  }
+
+  .icon {
+    width: 40px;
+    cursor: pointer;
+  }
+}
